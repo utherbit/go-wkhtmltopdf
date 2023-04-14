@@ -9,7 +9,7 @@ Example
 		"log"
 		"os"
 
-		pdf "github.com/adrg/go-wkhtmltopdf"
+		pdf "github.com/utherbit/go-wkhtmltopdf"
 	)
 
 	func main() {

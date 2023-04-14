@@ -7,22 +7,22 @@
 <h3 align="center">Go bindings and high-level HTML to PDF conversion interface.</h3>
 
 <p align="center">
-    <a href="https://github.com/adrg/go-wkhtmltopdf/actions?query=workflow%3ACI">
-        <img alt="Build status" src="https://github.com/adrg/go-wkhtmltopdf/workflows/CI/badge.svg">
+    <a href="https://github.com/utherbit/go-wkhtmltopdf/actions?query=workflow%3ACI">
+        <img alt="Build status" src="https://github.com/utherbit/go-wkhtmltopdf/workflows/CI/badge.svg">
     </a>
-    <a href="https://pkg.go.dev/github.com/adrg/go-wkhtmltopdf">
+    <a href="https://pkg.go.dev/github.com/utherbit/go-wkhtmltopdf">
         <img alt="pkg.go.dev documentation" src="https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white">
     </a>
     <a href="https://opensource.org/licenses/MIT" rel="nofollow">
         <img alt="MIT license" src="https://img.shields.io/github/license/adrg/go-wkhtmltopdf"/>
     </a>
-    <a href="https://goreportcard.com/report/github.com/adrg/go-wkhtmltopdf">
-        <img alt="Go report card" src="https://goreportcard.com/badge/github.com/adrg/go-wkhtmltopdf" />
+    <a href="https://goreportcard.com/report/github.com/utherbit/go-wkhtmltopdf">
+        <img alt="Go report card" src="https://goreportcard.com/badge/github.com/utherbit/go-wkhtmltopdf" />
     </a>
     <a href="https://discord.gg/Jd63kBf">
         <img alt="Discord channel" src="https://img.shields.io/discord/767381740427542588?label=discord" />
     </a>
-    <a href="https://github.com/adrg/go-wkhtmltopdf/issues">
+    <a href="https://github.com/utherbit/go-wkhtmltopdf/issues">
         <img alt="GitHub issues" src="https://img.shields.io/github/issues/adrg/go-wkhtmltopdf">
     </a>
     <a href="https://ko-fi.com/T6T72WATK">
@@ -33,7 +33,7 @@
 Implements [wkhtmltopdf](https://wkhtmltopdf.org) Go bindings. It can be used to convert HTML documents to PDF files.
 The package does not use the `wkhtmltopdf` binary. Instead, it uses the `wkhtmltox` library directly.
 
-Full documentation can be found at https://pkg.go.dev/github.com/adrg/go-wkhtmltopdf.
+Full documentation can be found at https://pkg.go.dev/github.com/utherbit/go-wkhtmltopdf.
 
 **Examples**
 
@@ -49,13 +49,13 @@ In order to use the package, `wkhtmltox` must be installed. Installation package
 for multiple operating systems can be found at [https://builds.wkhtmltopdf.org](https://wkhtmltopdf.org/downloads.html).
 
 Please see the wiki pages of this project for detailed installation instructions.
-- [Install on Linux](https://github.com/adrg/go-wkhtmltopdf/wiki/Install-on-Linux)
-- [Install on Windows](https://github.com/adrg/go-wkhtmltopdf/wiki/Install-on-Windows)
+- [Install on Linux](https://github.com/utherbit/go-wkhtmltopdf/wiki/Install-on-Linux)
+- [Install on Windows](https://github.com/utherbit/go-wkhtmltopdf/wiki/Install-on-Windows)
 
 > Note: `wkhtmltox` does not seem to be actively maintained. Please see the [project status](https://wkhtmltopdf.org/status.html) for more information, recommendations and future plans.
 
 ## Installation
-    go get github.com/adrg/go-wkhtmltopdf
+    go get github.com/utherbit/go-wkhtmltopdf
 
 ## Usage
 
@@ -66,7 +66,7 @@ import (
 	"log"
 	"os"
 
-	pdf "github.com/adrg/go-wkhtmltopdf"
+	pdf "github.com/utherbit/go-wkhtmltopdf"
 )
 
 func main() {

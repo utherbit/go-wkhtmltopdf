@@ -50,4 +50,4 @@ curl -H "Content-Type: application/json" -X POST \
 }'
 ```
 
-See full list of options at [https://pkg.go.dev/github.com/adrg/go-wkhtmltopdf](https://pkg.go.dev/github.com/adrg/go-wkhtmltopdf).
+See full list of options at [https://pkg.go.dev/github.com/utherbit/go-wkhtmltopdf](https://pkg.go.dev/github.com/utherbit/go-wkhtmltopdf).
